@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/json-friendly-cleaner?color=green) ![license](https://img.shields.io/npm/l/json-friendly-cleaner?color=blue) ![npm downloads](https://img.shields.io/npm/dm/json-friendly-cleaner)
 
-`json-friendly-cleaner` is a lightweight and flexible utility that removes unwanted values such as `null`, `undefined`, `false`, or any specified values from JSON objects or arrays. This package is perfect for cleaning up API responses, user input, or any other JSON data.
+`json-friendly-cleaner` is a lightweight and flexible utility that removes unwanted values such as `null`, `undefined`, `false`, or any specified values from JSON objects or arrays. It works perfectly on nested objects. This package is perfect for cleaning up API responses, user input, or any other JSON data.
 
 ## Features
 
@@ -34,10 +34,7 @@ Below are examples of how to use the `json-friendly-cleaner` library in your pro
 
 ```bash
 // ES Module syntax
-import { removeNulls } from 'json-friendly-cleane`';
-
-// If using CommonJS syntax, use:
-// const { removeNulls } = require('json-friendly-cleaner');
+import { removeNulls } from 'json-friendly-cleaner';
 
 const data = {
     name: "John",
