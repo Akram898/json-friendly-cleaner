@@ -1,4 +1,4 @@
-const { removeNulls, removeValues } = require('./index'); // Adjust the path if necessary
+const { removeNulls, removeValues } = require('./index');
 
 describe('json-friendly-cleaner', () => {
 
